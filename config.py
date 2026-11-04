@@ -15,7 +15,7 @@ def _float(key, default):
 # ---------- Telegram ----------
 API_ID   = _int("API_ID", 32208414)
 API_HASH = os.environ.get("API_HASH", "628f11c05a44c8dda4b006e66f4bf7df")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "9194448928:AAFGMxeWk-uFD5b-t987YRAzLiMrgIxviA4")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "9237049693:AAHYU8DIHkp1_ui5v91m-gZNi4epYo57yRY")
 
 LOG_CHANNEL = _int("LOG_CHANNEL", -1003919524886)
 CHANNEL_ID  = LOG_CHANNEL
@@ -25,9 +25,9 @@ ADMIN_IDS   = [8580367479, 8694029886]
 SECRET_KEY     = os.environ.get("SECRET_KEY", "8f4c9e2a7b1d6f03c5a8e941d2b7f60a9c4e1d8b6f3a7c2e5d0b9f8146a3c7e2")
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "admin123")
 
-WEB_APP_URL     = os.environ.get("WEB_APP_URL", "https://hai-3f722c58b44b.herokuapp.com")
-API_BASE_URL    = os.environ.get("API_BASE_URL", "https://hai-3f722c58b44b.herokuapp.com")
-ADMIN_PANEL_URL = os.environ.get("ADMIN_PANEL_URL", "https://hai-3f722c58b44b.herokuapp.com" + "/admin")
+WEB_APP_URL     = os.environ.get("WEB_APP_URL", "https://final2-1c31123f41db.herokuapp.com")
+API_BASE_URL    = os.environ.get("API_BASE_URL", "https://final2-1c31123f41db.herokuapp.com")
+ADMIN_PANEL_URL = os.environ.get("ADMIN_PANEL_URL", "https://final2-1c31123f41db.herokuapp.com" + "/admin")
 
 BACKGROUND_VIDEO = os.environ.get(
     "BACKGROUND_VIDEO",
