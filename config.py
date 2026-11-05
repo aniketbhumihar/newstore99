@@ -15,15 +15,15 @@ def _float(key, default):
 # ---------- Telegram ----------
 API_ID   = _int("API_ID", 32208414)
 API_HASH = os.environ.get("API_HASH", "628f11c05a44c8dda4b006e66f4bf7df")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "9237049693:AAHYU8DIHkp1_ui5v91m-gZNi4epYo57yRY")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8968353323:AAFV7ai-MY5m86pmoe239XTADDJhAP4onLM")
 
-LOG_CHANNEL = _int("LOG_CHANNEL", -1004376082945)
+LOG_CHANNEL = _int("LOG_CHANNEL", -1004325131900)
 CHANNEL_ID  = LOG_CHANNEL
-ADMIN_IDS   = [8580367479, 8694029886]
+ADMIN_IDS   = [5258077200]
 
 # ---------- Web ----------
 SECRET_KEY     = os.environ.get("SECRET_KEY", "8f4c9e2a7b1d6f03c5a8e941d2b7f60a9c4e1d8b6f3a7c2e5d0b9f8146a3c7e2")
-ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "admin123")
+ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "ANIKET")
 
 WEB_APP_URL     = os.environ.get("WEB_APP_URL", "https://final2-1c31123f41db.herokuapp.com")
 API_BASE_URL    = os.environ.get("API_BASE_URL", "https://final2-1c31123f41db.herokuapp.com")
